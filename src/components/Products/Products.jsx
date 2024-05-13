@@ -36,10 +36,6 @@ const Products = ({ products, onAddToCart, featureProducts }) => {
           <h1 className={classes.heroHeader}>
             Search Your Favorite Product Here.
           </h1>
-          {/* <h3 className={classes.heroDesc} ref={sectionRef}>
-            Explore our curated collection of new and popular djangos to find your
-            next literary adventure.
-          </h3> */}
           <div className={classes.searchs}>
             <Input
               className={classes.searchb}

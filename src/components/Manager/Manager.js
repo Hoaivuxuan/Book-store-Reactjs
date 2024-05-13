@@ -25,11 +25,15 @@ const Manager = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavDropdown title="Menu" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/book-manager">Book</NavDropdown.Item>
-              <NavDropdown.Item href="/mobile-manager">Mobile</NavDropdown.Item>
+            <NavDropdown title="Menu manager" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/book-manager">
+                Book Manager
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/mobile-manager">
+                Mobile Manager
+              </NavDropdown.Item>
               <NavDropdown.Item href="/clothes-manager">
-                Clothes
+                Clothes Manager
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
