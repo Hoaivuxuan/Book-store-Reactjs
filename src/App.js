@@ -4,6 +4,10 @@ import { commerce } from "./lib/commerce";
 import Products from "./components/Products/Products";
 import Navbar from "./components/Navbar/Navbar";
 import Cart from "./components/Cart/Cart";
+import Login from "./components/Login/Login";
+import LoginAdmin from "./components/LoginAdmin/LoginAdmin";
+import Account from "./components/Account/Account";
+import Manager from "./components/Manager/Manager";
 import Checkout from "./components/CheckoutForm/Checkout/Checkout";
 import ProductView from "./components/ProductView/ProductView";
 import Manga from "./components/Manga/Manga";
@@ -125,6 +129,8 @@ const App = () => {
   }, []);
 
   const handleDrawerToggle = () => setMobileOpen(!mobileOpen);
+  const tokenUser = localStorage.getItem("tokenUser");
+  const tokenAdmin = localStorage.getItem("tokenAdmin");
 
   return (
     <div>
@@ -153,6 +159,18 @@ const App = () => {
                     onRemoveFromCart={handleRemoveFromCart}
                     onEmptyCart={handleEmptyCart}
                   />
+                </Route>
+                <Route exact path="/login">
+                  {tokenUser ? <></> : <Login />}
+                </Route>
+                <Route exact path="/login-admin">
+                  {tokenAdmin ? <Manager /> : <LoginAdmin />}
+                </Route>
+                <Route exact path="/account">
+                  {tokenUser ? <Account /> : <></>}
+                </Route>
+                <Route exact path="/manager">
+                  {tokenAdmin ? <Manager /> : <></>}
                 </Route>
                 <Route path="/checkout" exact>
                   <Checkout
@@ -192,10 +210,9 @@ const App = () => {
           <Footer />
         </>
       ) : (
-        // <div className="loader">
-        //   <img src={loadingImg} alt="Loading" />
-        // </div>
-        <></>
+        <div className="loader">
+          <img src={loadingImg} alt="Loading" />
+        </div>
       )}
     </div>
   );

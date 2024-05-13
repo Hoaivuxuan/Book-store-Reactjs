@@ -11,7 +11,7 @@
  ##   [Live App Demo](https://akshatbookstore.netlify.app/)
  
  
- ![Alt text](https://github.com/Akshatjalan/Book-store-Reactjs/blob/main/src/assets/Web.jpg?raw=true "Main Page")
+ ![Alt text](https://github.com/Hoaivuxuan/Book-store-Reactjs/blob/main/src/assets/Web.jpg?raw=true "Main Page")
 
 # Tools Used
 
@@ -52,19 +52,19 @@ See the section about [deployment](#deployment) for more information.
 </h3>
   <p align="center"> 
 
-  <a href="https://github.com/Akshatjalan">
-    <img src="https://github.com/Akshatjalan/akshat/blob/master/Color/Github.svg" width="30" height="30" hspace="20">
+  <a href="https://github.com/Hoaivuxuan">
+    <img src="https://github.com/Hoaivuxuan/akshat/blob/master/Color/Github.svg" width="30" height="30" hspace="20">
   </a>
 
   <a href="https://www.linkedin.com/in/akshat-jalan/">
-    <img src="https://github.com/Akshatjalan/akshat/blob/master/Color/LinkedIN.svg" width="30" height="30" hspace="20">
+    <img src="https://github.com/Hoaivuxuan/akshat/blob/master/Color/LinkedIN.svg" width="30" height="30" hspace="20">
   </a>
 
   <a href="https://www.instagram.com/akshatxjalan/">
-    <img src="https://github.com/Akshatjalan/akshat/blob/master/Color/Instagram.svg" width="30" height="30" hspace="20">
+    <img src="https://github.com/Hoaivuxuan/akshat/blob/master/Color/Instagram.svg" width="30" height="30" hspace="20">
   </a>
     <a href="mailto:vuxuanhoai28@gmail.com">
-    <img src="https://github.com/Akshatjalan/akshat/blob/master/Color/Gmail.svg"  width="30" height="30" hspace="20">
+    <img src="https://github.com/Hoaivuxuan/akshat/blob/master/Color/Gmail.svg"  width="30" height="30" hspace="20">
   </a>
 
 </p>

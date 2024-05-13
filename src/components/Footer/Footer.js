@@ -28,7 +28,7 @@ const Footer = () => {
               <a href="#">Django-IT</a>
             </p>
             <p>
-              <a href="https://akshatjalan.github.io/akshat/">Portfolio</a>
+              <a href="https://Hoaivuxuan.github.io/akshat/">Portfolio</a>
             </p>
           </MDBCol>
 
@@ -64,7 +64,7 @@ const Footer = () => {
                 <li className="list-inline-item">
                   <a
                     className="btn-floating btn-sm rgba-white-slight mx-1"
-                    href="http://github.com/Akshatjalan"
+                    href="http://github.com/Hoaivuxuan"
                   >
                     <i className="fab fa-github" />
                   </a>
