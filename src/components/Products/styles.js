@@ -140,7 +140,7 @@ export default makeStyles((theme) => ({
     borderRadius: "6px",
     border: "1px solid #001524",
   },
-  booksHeader: {
+  djangosHeader: {
     textAlign: "center",
     color: "#001524",
     fontSize: 40,
@@ -150,7 +150,7 @@ export default makeStyles((theme) => ({
     letterSpacing: "-.8px",
     wordSpacing: "4px",
   },
-  booksDesc: {
+  djangosDesc: {
     textAlign: "center",
     color: "#455A64",
     fontSize: 20,
@@ -240,10 +240,10 @@ export default makeStyles((theme) => ({
     contentHeader: {
       fontSize: 32,
     },
-    booksDesc: {
+    djangosDesc: {
       fontSize: 12,
     },
-    booksHeader: {
+    djangosHeader: {
       fontSize: 32,
     },
     searchs: {

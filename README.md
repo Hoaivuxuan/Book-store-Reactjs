@@ -48,7 +48,7 @@ See the section about [deployment](#deployment) for more information.
 
 ## Contact 
  <h3 align="center">
-  <code> Akshat Jalan </code>
+  <code> Vu Xuan Hoai </code>
 </h3>
   <p align="center"> 
 
@@ -63,7 +63,7 @@ See the section about [deployment](#deployment) for more information.
   <a href="https://www.instagram.com/akshatxjalan/">
     <img src="https://github.com/Akshatjalan/akshat/blob/master/Color/Instagram.svg" width="30" height="30" hspace="20">
   </a>
-    <a href="mailto:jalanakshat2@gmail.com">
+    <a href="mailto:vuxuanhoai28@gmail.com">
     <img src="https://github.com/Akshatjalan/akshat/blob/master/Color/Gmail.svg"  width="30" height="30" hspace="20">
   </a>
 

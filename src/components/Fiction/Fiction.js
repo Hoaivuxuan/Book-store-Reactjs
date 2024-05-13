@@ -16,10 +16,10 @@ const Fiction = ({ onAddToCart, fictionProducts }) => {
         <>
           <div className={classes.categorySection}>
             <h3 className={classes.categoryHeader}>
-              <span style={{ color: "#f1361d" }}>Fictional&nbsp;</span>Books
+              <span style={{ color: "#f1361d" }}>Fictional&nbsp;</span>Djangos
             </h3>
             <h3 className={classes.categoryDesc}>
-              Browse our Fictional books Collection
+              Browse our Fictional djangos Collection
             </h3>
             <Grid
               className={classes.categoryFeatured}

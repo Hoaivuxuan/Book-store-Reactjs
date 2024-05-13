@@ -27,11 +27,11 @@ const Navbar = ({ totalItems }) => {
           >
             <img
               src={logo}
-              alt="Book Store App"
+              alt="Django Store App"
               height="50px"
               className={classes.image}
             />
-            <div>BOOKSHOP</div>
+            <div>Django Shop</div>
           </Typography>
 
           <div className={classes.grow} />

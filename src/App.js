@@ -192,9 +192,10 @@ const App = () => {
           <Footer />
         </>
       ) : (
-        <div className="loader">
-          <img src={loadingImg} alt="Loading" />
-        </div>
+        // <div className="loader">
+        //   <img src={loadingImg} alt="Loading" />
+        // </div>
+        <></>
       )}
     </div>
   );

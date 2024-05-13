@@ -34,17 +34,17 @@ const Products = ({ products, onAddToCart, featureProducts }) => {
 
         <div className={classes.heroCont}>
           <h1 className={classes.heroHeader}>
-            Discover Your Next Favorite Book Here.
+            Search Your Favorite Product Here.
           </h1>
-          <h3 className={classes.heroDesc} ref={sectionRef}>
-            Explore our curated collection of new and popular books to find your
+          {/* <h3 className={classes.heroDesc} ref={sectionRef}>
+            Explore our curated collection of new and popular djangos to find your
             next literary adventure.
-          </h3>
+          </h3> */}
           <div className={classes.searchs}>
             <Input
               className={classes.searchb}
               type="text"
-              placeholder="Which book are you looking for?"
+              placeholder="Which django are you looking for?"
               onClick={handleInputClick}
               onChange={(event) => {
                 setSearchTerm(event.target.value);
@@ -168,11 +168,11 @@ const Products = ({ products, onAddToCart, featureProducts }) => {
       <div>
         {searchTerm === "" && (
           <>
-            <h1 className={classes.booksHeader}>
-              Discover <span style={{ color: "#f1361d" }}>Books</span>
+            <h1 className={classes.djangosHeader}>
+              Discover <span style={{ color: "#f1361d" }}>Djangos</span>
             </h1>
-            <h3 className={classes.booksDesc}>
-              Explore our comprehensive collection of books.
+            <h3 className={classes.djangosDesc}>
+              Explore our comprehensive collection of djangos.
             </h3>
           </>
         )}
@@ -181,7 +181,7 @@ const Products = ({ products, onAddToCart, featureProducts }) => {
             <Input
               className={classes.mobSearchb}
               type="text"
-              placeholder="Search for books"
+              placeholder="Search for djangos"
               onChange={(event) => {
                 setSearchTerm(event.target.value);
               }}

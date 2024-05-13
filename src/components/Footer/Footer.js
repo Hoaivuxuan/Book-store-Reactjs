@@ -6,16 +6,16 @@ const Footer = () => {
   return (
     <MDBFooter color="unique-color-dark" className="font-medium pt-4 mt-4">
       <MDBContainer className="text-center text-md-left">
-        <MDBRow className="text-center text-md-left mt-3 pb-3">
+        {/* <MDBRow className="text-center text-md-left mt-3 pb-3">
           <MDBCol md="3" lg="3" xl="4" className="mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">
-              <img src={logo} alt="Book Store App" height="50px" />
-              <strong>Book-IT</strong>
+              <img src={logo} alt="Django Store App" height="50px" />
+              <strong>Django-IT</strong>
             </h6>
             <p>
-              Book-IT is an online React web application where the customer can
-              purchase books online. Through this book store the users can
-              search for a book by its title and later can add to the shopping
+              Django-IT is an online React web application where the customer can
+              purchase djangos online. Through this django store the users can
+              search for a django by its title and later can add to the shopping
               cart and finally purchase using credit card transaction.
             </p>
           </MDBCol>
@@ -25,7 +25,7 @@ const Footer = () => {
               <strong>Products</strong>
             </h6>
             <p>
-              <a href="#">Book-IT</a>
+              <a href="#">Django-IT</a>
             </p>
             <p>
               <a href="https://akshatjalan.github.io/akshat/">Portfolio</a>
@@ -38,7 +38,7 @@ const Footer = () => {
               <strong>Contact</strong>
             </h6>
             <p>
-              <i className="fa fa-envelope mr-3" /> &nbsp;jalanakshat2@gmail.com
+              <i className="fa fa-envelope mr-3" /> &nbsp;vuxuanhoai28@gmail.com
             </p>
             <p>
               <a
@@ -49,13 +49,13 @@ const Footer = () => {
               </a>
             </p>
           </MDBCol>
-        </MDBRow>
+        </MDBRow> */}
         <hr />
         <MDBRow className="d-flex align-items-center">
           <MDBCol md="8" lg="8">
             <p className="text-center text-md-left grey-text">
               &copy; {new Date().getFullYear()} Made by
-              <a href=""> Akshat Jalan </a>
+              <a href=""> Vu Xuan Hoai </a>
             </p>
           </MDBCol>
           <MDBCol md="4" lg="4" className="ml-lg-0">
