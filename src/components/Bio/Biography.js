@@ -5,7 +5,7 @@ import useStyles from "../Products/styles.js";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "../ProductView/style.css";
 
-const Biography = ({ onAddToCart, bioProducts }) => {
+const Biography = ({ onAddToCart, clothesProducts }) => {
   const classes = useStyles();
 
   return (
@@ -15,9 +15,9 @@ const Biography = ({ onAddToCart, bioProducts }) => {
 
         <>
           <div className={classes.categorySection}>
-            <h3 className={classes.categoryHeader}>Biographies</h3>
+            <h3 className={classes.categoryHeader}>Mobile</h3>
             <h3 className={classes.categoryDesc}>
-              Browse our Biographies Collection
+              Browse our Mobile Collection
             </h3>
             <Grid
               className={classes.categoryFeatured}
@@ -25,7 +25,7 @@ const Biography = ({ onAddToCart, bioProducts }) => {
               justify="center"
               spacing={1}
             >
-              {bioProducts.map((product) => (
+              {clothesProducts.map((product) => (
                 <Grid
                   className={classes.categoryFeatured}
                   item

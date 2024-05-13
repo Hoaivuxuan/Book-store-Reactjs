@@ -69,7 +69,7 @@ const Products = ({ products, onAddToCart, featureProducts }) => {
                   style={{ backgroundImage: `url(${mangaBg})` }}
                 ></button>
               </Link>
-              <div className={classes.categoryName}>Manga</div>
+              <div className={classes.categoryName}>Book</div>
             </div>
             <div>
               <Link to="biography">
@@ -78,7 +78,7 @@ const Products = ({ products, onAddToCart, featureProducts }) => {
                   style={{ backgroundImage: `url(${bioBg})` }}
                 ></button>
               </Link>
-              <div className={classes.categoryName}>Biography</div>
+              <div className={classes.categoryName}>Mobile</div>
             </div>
             <div>
               <Link to="fiction">
@@ -87,7 +87,7 @@ const Products = ({ products, onAddToCart, featureProducts }) => {
                   style={{ backgroundImage: `url(${fictionBg})` }}
                 ></button>
               </Link>
-              <div className={classes.categoryName}>Fiction</div>
+              <div className={classes.categoryName}>Clothes</div>
             </div>
           </div>
         </div>
@@ -108,7 +108,7 @@ const Products = ({ products, onAddToCart, featureProducts }) => {
                 style={{ backgroundImage: `url(${mangaBg})` }}
               ></button>
             </Link>
-            <div className={classes.categoryName}>Manga</div>
+            <div className={classes.categoryName}>Book</div>
           </div>
           <div>
             <Link to="biography">
@@ -117,7 +117,7 @@ const Products = ({ products, onAddToCart, featureProducts }) => {
                 style={{ backgroundImage: `url(${bioBg})` }}
               ></button>
             </Link>
-            <div className={classes.categoryName}>Biography</div>
+            <div className={classes.categoryName}>Mobile</div>
           </div>
           <div>
             <Link to="fiction">
@@ -126,12 +126,12 @@ const Products = ({ products, onAddToCart, featureProducts }) => {
                 style={{ backgroundImage: `url(${fictionBg})` }}
               ></button>
             </Link>
-            <div className={classes.categoryName}>Fiction</div>
+            <div className={classes.categoryName}>Clothes</div>
           </div>
         </Carousel>
       </div>
 
-      {searchTerm === "" && (
+      {/* {searchTerm === "" && (
         <>
           <div>
             <h3 className={classes.contentHeader}>
@@ -159,7 +159,7 @@ const Products = ({ products, onAddToCart, featureProducts }) => {
             </Grid>
           </div>
         </>
-      )}
+      )} */}
 
       <div>
         {searchTerm === "" && (

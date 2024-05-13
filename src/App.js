@@ -24,9 +24,9 @@ import Biography from "./components/Bio/Biography";
 const App = () => {
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [products, setProducts] = useState([]);
-  const [mangaProducts, setMangaProducts] = useState([]);
-  const [fictionProducts, setFictionProducts] = useState([]);
-  const [bioProducts, setBioProducts] = useState([]);
+  const [bookProducts, setBookProducts] = useState([]);
+  const [mobileProducts, setMobileProducts] = useState([]);
+  const [clothesProducts, setClothesProducts] = useState([]);
   const [featureProducts, setFeatureProducts] = useState([]);
   const [cart, setCart] = useState({});
   const [order, setOrder] = useState({});
@@ -38,12 +38,12 @@ const App = () => {
     setProducts(data);
   };
 
-  const fetchMangaProducts = async () => {
+  const fetchBookProducts = async () => {
     const { data } = await commerce.products.list({
       category_slug: ["manga"],
     });
 
-    setMangaProducts(data);
+    setBookProducts(data);
   };
 
   const fetchFeatureProducts = async () => {
@@ -59,7 +59,7 @@ const App = () => {
       category_slug: ["fiction"],
     });
 
-    setFictionProducts(data);
+    setMobileProducts(data);
   };
 
   const fetchBioProducts = async () => {
@@ -67,7 +67,7 @@ const App = () => {
       category_slug: ["biography"],
     });
 
-    setBioProducts(data);
+    setClothesProducts(data);
   };
 
   const fetchCart = async () => {
@@ -123,7 +123,7 @@ const App = () => {
     fetchProducts();
     fetchFeatureProducts();
     fetchCart();
-    fetchMangaProducts();
+    fetchBookProducts();
     fetchFictionProducts();
     fetchBioProducts();
   }, []);
@@ -185,21 +185,21 @@ const App = () => {
                 </Route>
                 <Route path="/manga" exact>
                   <Manga
-                    mangaProducts={mangaProducts}
+                    bookProducts={bookProducts}
                     onAddToCart={handleAddToCart}
                     handleUpdateCartQty
                   />
                 </Route>
                 <Route path="/fiction" exact>
                   <Fiction
-                    fictionProducts={fictionProducts}
+                    mobileProducts={mobileProducts}
                     onAddToCart={handleAddToCart}
                     handleUpdateCartQty
                   />
                 </Route>
                 <Route path="/biography" exact>
                   <Biography
-                    bioProducts={bioProducts}
+                    clothesProducts={clothesProducts}
                     onAddToCart={handleAddToCart}
                     handleUpdateCartQty
                   />

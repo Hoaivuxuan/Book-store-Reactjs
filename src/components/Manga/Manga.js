@@ -5,7 +5,7 @@ import useStyles from "../Products/styles.js";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "../ProductView/style.css";
 
-const Manga = ({ onAddToCart, mangaProducts }) => {
+const Manga = ({ onAddToCart, bookProducts }) => {
   const classes = useStyles();
 
   return (
@@ -16,7 +16,7 @@ const Manga = ({ onAddToCart, mangaProducts }) => {
         <>
           <div className={classes.categorySection}>
             <h3 className={classes.categoryHeader}>
-              Anime <span style={{ color: "#f1361d" }}>Manga</span>
+              Anime <span style={{ color: "#f1361d" }}>Book</span>
             </h3>
             <h3 className={classes.categoryDesc}>
               Browse our handpicked selection of manga series
@@ -27,7 +27,7 @@ const Manga = ({ onAddToCart, mangaProducts }) => {
               justify="center"
               spacing={1}
             >
-              {mangaProducts.map((product) => (
+              {bookProducts.map((product) => (
                 <Grid
                   className={classes.categoryFeatured}
                   item
